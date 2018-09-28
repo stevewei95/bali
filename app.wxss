@@ -1,0 +1,7 @@
+/**app.wxss**/
+page {
+  /* iOS:苹方 Android:思源 */
+  /* font&color 会继承到组件内部 */
+  font-family: "PingFangSC-Thin";
+  font-size: 32rpx;
+}

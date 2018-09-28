@@ -1,0 +1,9 @@
+<!-- <navigator class="nav" target="miniProgram" app-id="wx8ffc97ad5bcccc89" open-type="navigate">
+  <image class="" src=""></image>
+</navigator> -->
+<view class="container">
+  <text class="item">Author: Steve Wei</text>
+  <text class="item">Date: 28, September, 2018</text>
+  <text class="item">Framework: v2.3.0</text>
+  <text class="item">Devtools: 1.02.1809260</text>
+</view>

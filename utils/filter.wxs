@@ -1,0 +1,19 @@
+/* 使用的是微信小程序的wxs语法，并不是JS语法，与JS的ES5语法类似 */
+/* eslint-disable */
+var format = function (text) {
+  if (!text) {
+    return ''
+  }
+  var reg = getRegExp('\\\\n', 'g')
+  var indent = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+  return text.replace(reg, '\n' + indent)
+}
+
+var limit = function (array, length) {
+  return array.slice(0, length)
+}
+
+module.exports = {
+  format: format,
+  limit: limit
+}
